@@ -3,6 +3,7 @@ package base_url;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
+import utilities.ConfigReader;
 
 import static utilities.Authentication.generateToken;
 
